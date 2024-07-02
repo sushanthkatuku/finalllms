@@ -41,7 +41,7 @@ def studentsignup_view(request):
         smtp = smtplib.SMTP('smtp.gmail.com', 587)
         smtp.starttls()
         smtp.login("sushanthkatuku@gmail.com", "hbip kmjh wpjh hmxr")
-        smtp.sendmail("helpinggpt@gmail.com", [email], "You are Successfully Registered to our Service")
+        smtp.sendmail("sushanthkatuku@gmail.com", [email], "You are Successfully Registered to our Library management Service")
         smtp.quit()
 
         form1 = forms.StudentUserForm(request.POST)  # Populate form1 with POST data
