@@ -40,7 +40,7 @@ def studentsignup_view(request):
         import smtplib
         smtp = smtplib.SMTP('smtp.gmail.com', 587)
         smtp.starttls()
-        smtp.login("helpinggpt@gmail.com", "xyie dyth ptog qfdc")
+        smtp.login("sushanthkatuku@gmail.com", "hbip kmjh wpjh hmxr")
         smtp.sendmail("helpinggpt@gmail.com", [email], "You are Successfully Registered to our Service")
         smtp.quit()
 
